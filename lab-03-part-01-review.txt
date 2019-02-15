@@ -15,7 +15,7 @@ This lab will review downloading and uncompressing files, and it will get us set
 
 Write the command that you used to do this below:
 ----------
-
+~
 
 
 ==========
@@ -23,22 +23,34 @@ Write the command that you used to do this below:
 
 Write the command that you used to do this - as well as its output - below :
 ----------
-
-
+ent-v314-010:~ student$ pwd
+/Users/student
+ent-v314-010:~ student$ ~
 
 ==========
 3. Are there any directories or files in your directory that have the word mtec1003 in it?
 
 Write the command(s) that you used to determine this - as well as its output - below:
 ----------
-
-
+ent-v314-010:~ student$ ls
+AMALogger20190109.log	Downloads		bar.txt
+AMALogger20190130.log	KyleH-MTEC1003		foo
+AMALogger20190204.log	Library			foo.txt
+AMALogger20190206.log	MPLABXProjects		ipe.properties
+AMALogger20190211.log	Movies			isus
+AMALogger20190213.log	Music			mtec1002
+Adlm			New Unity Project	mtec1002-lab-03
+Adobe			Pictures		myprojects~
+Applications		Public			pymel.log
+Desktop			QLData			xgen
+Documents		Things
+ent-v314-010:~ student$ 
 
 ==========
 4. If there are directories or files in your home directory that have the word mtec1003 in them, list them below (otherwise skip this step):
 ----------
-
-
+mtec1002
+mtec1002-lab-03
 
 ==========
 5. Delete these directories from your home folder by using this command:
@@ -51,13 +63,25 @@ $ rm -rf mtec1003-labs-02
 
 (skip if these directories don't exist)
 ----------
-
+ent-v314-010:~ student$ rm -rf mtec1002-lab-03
+ent-v314-010:~ student$ ls
+AMALogger20190109.log	Downloads		bar.txt
+AMALogger20190130.log	KyleH-MTEC1003		foo
+AMALogger20190204.log	Library			foo.txt
+AMALogger20190206.log	MPLABXProjects		ipe.properties
+AMALogger20190211.log	Movies			isus
+AMALogger20190213.log	Music			mtec1002
+Adlm			New Unity Project	myprojects~
+Adobe			Pictures		pymel.log
+Applications		Public			xgen
+Desktop			QLData
+Documents		Things
 
 
 ==========
 6.  A compressed archive (.tar.gz) of the lab files can be found at this url: 
 
-http://entertainmenttechnology.github.io/Wilson-MTEC1003/labs/03/mtec1003-lab-03.tar.gz
+gzip
 
 Download this file to your home directory into a file called mtec1003-lab-03.tar.gz   
 
@@ -67,7 +91,10 @@ This command should have a *flag* to specify the output file.  MAKE SURE TO NAME
 
 Write the command(s) that you used to download this file - as well as its output - below:
 ----------
-
+ent-v314-010:~ student$ curl -o mtec1003-lab-03.tar.gz http://entertainmenttechnology.github.io/Wilson-MTEC1003/labs/03/mtec1003-lab-03.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  898k  100  898k    0     0  2510k      0 --:--:-- --:--:-- --:--:-- 2510k
 
 
 ==========
