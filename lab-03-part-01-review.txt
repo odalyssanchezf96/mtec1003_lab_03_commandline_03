@@ -91,7 +91,7 @@ This command should have a *flag* to specify the output file.  MAKE SURE TO NAME
 
 Write the command(s) that you used to download this file - as well as its output - below:
 ----------
-ent-v314-010:~ student$ curl -o mtec1003-lab-03.tar.gz http://entertainmenttechnology.github.io/Wilson-MTEC1003/labs/03/mtec1003-lab-03.tar.gz
+ent-v314-010:~ student$ curl -o mtec1003-lab-03.tar.gz 
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 100  898k  100  898k    0     0  2510k      0 --:--:-- --:--:-- --:--:-- 2510k
