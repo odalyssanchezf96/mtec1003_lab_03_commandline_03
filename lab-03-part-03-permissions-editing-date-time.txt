@@ -51,7 +51,7 @@ ent-v314-017:~ student$ pwd
 
 What commands did you use to do this?
 ----------
-ent-v314-017:~ student$ mkdir copy_to_backup.sh.
+ent-v314-017:~ student$ mkdir copy_to_backup.sh
 ent-v314-017:~ student$ ls
 
 
@@ -121,7 +121,7 @@ echo I'm done backing up
 
 What commands did you use to do this?
 ----------
-
+mkdir
 
 
 ==========
@@ -129,7 +129,7 @@ What commands did you use to do this?
 
 What commands did you use to do this?
 ----------
-
+mv
 
 
 ==========
@@ -137,7 +137,7 @@ What commands did you use to do this?
 
 What commands did you use to do this?
 ----------
-
+./copy_to_backup.sh
 
 
 ==========
@@ -145,3 +145,6 @@ What commands did you use to do this?
 
 What commands did you use to do this?  Show the output.
 ----------
+Odalyss-MBP:test odalyssanchez$ ls
+1.txt			backup
+2.txt			copy_to_backup.sh
