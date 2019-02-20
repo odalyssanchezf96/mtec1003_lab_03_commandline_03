@@ -81,7 +81,7 @@ Documents		Things
 ==========
 6.  A compressed archive (.tar.gz) of the lab files can be found at this url: 
 
-gzip
+http://entertainmenttechnology.github.io/Wilson-MTEC1003/labs/03/mtec1003-lab-03.tar.gz
 
 Download this file to your home directory into a file called mtec1003-lab-03.tar.gz   
 
@@ -102,6 +102,14 @@ ent-v314-010:~ student$ curl -o mtec1003-lab-03.tar.gz
 
 Write the command(s) that you used to do this - as well as its output - below:
 ----------
+Odalyss-MBP:~ odalyssanchez$ unzip mtec1003-lab-03.tar.gz
+Archive:  mtec1003-lab-03.tar.gz
+  End-of-central-directory signature not found.  Either this file is not
+  a zipfile, or it constitutes one disk of a multi-part archive.  In the
+  latter case the central directory and zipfile comment will be found on
+  the last disk(s) of this archive.
+unzip:  cannot find zipfile directory in one of mtec1003-lab-03.tar.gz or
+        mtec1003-lab-03.tar.gz.zip, and cannot find mtec1003-lab-03.tar.gz.ZIP, period.
 
 
 
@@ -117,7 +125,7 @@ Otherwise...
 
 Write the command(s) that you used to do this - as well as its output - below:
 ----------
-
+Odalyss-MBP:~ odalyssanchez$ open mtec1003-lab-03.tar.gz
 
 
 ==========
@@ -125,23 +133,25 @@ Write the command(s) that you used to do this - as well as its output - below:
 
 Write the command(s) that you used to determine this - as well as its output - below:
 ----------
-
-
+cd mtec1003-lab-03
 
 ==========
 10.  Now... go back home.  Then change to the science-fiction directory using a relative path.  The directory is located in books... which is located in the mtec1003-lab-03 directory.  Verify you're in the right directory using pwd.
 
 Write the command(s) (including going home) that you used to do this below:
 ----------
-
-
+Odalyss-MBP:mtec1003-lab-03 odalyssanchez$ cd ~
+Odalyss-MBP:~ odalyssanchez$ cd ~/mtec1003-lab-03/books/science-fiction
+Odalyss-MBP:science-fiction odalyssanchez$ pwd
+/Users/odalyssanchez/mtec1003-lab-03/books/science-fiction
 
 ==========
 11.  Write the files that are in the science fiction directory below.
 
 Write the command(s) that you used to do this - as well as its output - below:
 ----------
-
+Odalyss-MBP:science-fiction odalyssanchez$ ls
+pg84.txt	pg86.txt
 
 
 ==========
@@ -149,21 +159,34 @@ Write the command(s) that you used to do this - as well as its output - below:
 
 Write the command(s) that you used to do this below:
 ----------
+Odalyss-MBP:~ odalyssanchez$ cd /users/odalyssanchez/mtec1003-lab-03/books/science-fiction/
+Odalyss-MBP:science-fiction odalyssanchez$ pwd
+/users/odalyssanchez/mtec1003-lab-03/books/science-fiction
 
 ==========
 13. Immediately change back to the mtec1003-lab-03 folder with a single command using a *relative* path.
 
 Write the command(s) that you used to do this below:
 ----------
+Odalyss-MBP:science-fiction odalyssanchez$ cd ../../
 
 ==========
 14. Find out what the most recently modified directory is in mtec1003 (there are only 3 to choose from)?  How would you find this out?  Hint: perhaps using something to show the modified date... and sort it by time.
 
 Write the command(s) that you used to do this below:
 ----------
-
+Odalyss-MBP:mtec1003-lab-03 odalyssanchez$ ls -al
+total 32
+drwxr-xr-x    6 odalyssanchez  staff    204 Feb 19 21:59 .
+drwxr-xr-x+  32 odalyssanchez  staff   1088 Feb 19 21:59 ..
+-rw-r--r--@   1 odalyssanchez  staff  12292 Feb 13  2013 .DS_Store
+drwxr-xr-x    4 odalyssanchez  staff    136 Feb 13  2013 books
+drwxr-xr-x  129 odalyssanchez  staff   4386 Feb 19 21:59 logs
+drwxr-xr-x    6 odalyssanchez  staff    204 Feb 13  2013 web
 ==========
 15. Create a compressed archive of the logs folder - that is... take the contents of logs and create a single archive (.tar), and compress (.gz)
 
 Write the command(s) that you used to do this below:
 ----------
+tar -cvf
+
